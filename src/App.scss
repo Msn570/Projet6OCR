@@ -1,0 +1,29 @@
+main{
+    margin: 0px 100px;
+    @media screen and (max-width: 769px) {
+        margin:5%;
+    }
+}
+
+body{
+    margin:0;
+}
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import ".../../assets/components/Nav/Nav";
+@import ".../../assets/components/Footer/Footer";
+@import ".../../assets/components/Header/Header";
+@import ".../../assets/components/Error404/Error404";
+@import ".../../assets/components/Banner/Banner";
+@import ".../../assets/components/AboutBanner/AboutBanner";
+@import ".../../assets/components/Cards/Cards";
+@import ".../../assets/components/Collapsible/Collapse";
+@import ".../../assets/components/Tag/Tag";
+@import ".../../assets/components/Host/Host";
+@import ".../../assets/components/Rating/Rating";
+@import ".../../assets/components/Carrousel/Carrousel";

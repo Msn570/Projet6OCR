@@ -1,0 +1,32 @@
+.Banner_container{
+
+    .Text{
+        font-size: 48px;
+        color:#FFFFFF;
+        @media screen and (max-width: 769px) {
+            font-size: 24px;
+            padding-left: 14px;
+        }
+    }
+
+    span{
+        @media screen and (max-width: 769px) {
+            display:block;
+        }
+    }
+    
+    display: flex;
+    background: url("../../images/Banner.webp");
+    object-fit: cover;
+    justify-content: center;
+    height: 220px;
+    background-size: cover;
+    border-radius: 25px;
+    align-items: center;
+    @media screen and (max-width: 769px) {
+        margin-top:20px;
+        height:130px;
+        border-radius: 10px;
+        justify-content: normal;
+    }
+}

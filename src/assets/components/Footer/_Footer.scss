@@ -1,0 +1,40 @@
+.Footer-Container{
+
+    img{
+        width: 10%;
+        margin-top: 2%;
+        @media screen and (max-width: 769px) {
+            width: 30%;
+        }
+    }
+
+    &__text {
+		 font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+		display: flex;
+		align-items: flex-end;
+		justify-content: center;
+		color: #FFFFFF;
+		width: 100%;
+		margin: 4% 0 3% 0;
+        @media screen and (max-width: 769px) {
+            font-size: 12px;
+        }
+    }
+    
+    width: 100%;
+	height: 209px;
+	margin-top: 5%;
+	background-color: #000000;
+	flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @media screen and (max-width: 769px) {
+        margin-top: 10%;
+    }
+    
+}
+

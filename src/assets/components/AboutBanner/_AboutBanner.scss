@@ -1,0 +1,16 @@
+.AboutBanner_container{
+
+    display: flex;
+    background: url("../../images/AboutBanner.webp");
+    object-fit: cover;
+    justify-content: center;
+    height: 220px;
+    background-size: cover;
+    border-radius: 25px;
+    align-items: center;
+    @media screen and (max-width: 769px) {
+        margin-top:20px;
+        height:130px;
+        border-radius: 10px;
+    }
+}

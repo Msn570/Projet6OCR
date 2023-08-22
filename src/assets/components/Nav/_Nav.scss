@@ -1,0 +1,27 @@
+.Nav_Head{
+
+    a{
+        padding-left: 15%;
+        color: #ff6060;
+        text-decoration: none;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        @media screen and (max-width: 769px) {
+            font-size: 12px;
+            text-transform: uppercase;
+        }
+    }
+    
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    @media screen and (max-width: 769px) {
+        width:70%
+    }
+
+    .active{
+        text-decoration: underline;
+    }
+}

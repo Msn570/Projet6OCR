@@ -1,0 +1,11 @@
+.Rating{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    @media screen and (max-width: 769px) {
+        height: fit-content;
+        justify-content: space-evenly;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
