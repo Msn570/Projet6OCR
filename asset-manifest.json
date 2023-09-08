@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Projet6OCR/static/css/main.390935a2.css",
+    "main.js": "/Projet6OCR/static/js/main.ea5c39fc.js",
+    "static/media/AboutBanner.webp": "/Projet6OCR/static/media/AboutBanner.6cb18096855539ba7117.webp",
+    "static/media/Banner.webp": "/Projet6OCR/static/media/Banner.4a4fa140ad5cc01a904f.webp",
+    "static/media/logo.webp": "/Projet6OCR/static/media/logo.a94f7c56ecc45c97e380.webp",
+    "static/media/Error.webp": "/Projet6OCR/static/media/Error.ce06f98ed9eedae4867f.webp",
+    "static/media/logo_footer.webp": "/Projet6OCR/static/media/logo_footer.9d12cf00baa43f0f70f7.webp",
+    "index.html": "/Projet6OCR/index.html",
+    "static/media/EStar.webp": "/Projet6OCR/static/media/EStar.7f702892dc9533ce5d56.webp",
+    "static/media/VectorBas.webp": "/Projet6OCR/static/media/VectorBas.0797b7b801633cd6f36d.webp",
+    "static/media/FStar.webp": "/Projet6OCR/static/media/FStar.9088bbc4af89dcfa6ae6.webp",
+    "main.390935a2.css.map": "/Projet6OCR/static/css/main.390935a2.css.map",
+    "main.ea5c39fc.js.map": "/Projet6OCR/static/js/main.ea5c39fc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.390935a2.css",
+    "static/js/main.ea5c39fc.js"
+  ]
+}
