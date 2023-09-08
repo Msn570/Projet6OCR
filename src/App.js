@@ -24,5 +24,3 @@ import './App.scss';
     </div>
   );
 }
-
-
