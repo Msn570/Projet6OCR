@@ -12,12 +12,12 @@ export default function Logement(){
     const { id } = useParams();
     const data = ApartmentsDatas.find(data => data.id === id);
     if (!data) {
-        return <Error404 />
+        return <Error404 /> //renvoie sur la page erreur si data non trouvée
 	}
     return(
 			<div key={data.id} className="fiche-container">
                 <Carrousel slides={data.pictures} picturesLength={data.pictures.length} />
-                <section className="hostInfo-container">
+				<section className="hostInfo-container">    
 					<div className="title-tags-container">
 						<div className="title-container">
 							<h1>{data.title}</h1>
